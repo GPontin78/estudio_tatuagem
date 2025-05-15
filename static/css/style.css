@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://png.pngtree.com/png-vector/20240827/ourlarge/pngtree-japanese-dragon-tattoo-transparent-black-and-white-dragon-png-image_13384528.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.trans {
+    padding-top: 40px; 
+}
+    .header-fixo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    margin-right: 50px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #e60073;
+}
+
+main {
+    margin-top: 160px;
+    padding: 30px 20px;
+}
+
+.galeria img {
+    width: 200px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.artista {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.img-tatuador {
+    width: 200px;
+    border-radius: 5px;
+    animation: sorrindo 3s infinite;
+}
+
+@keyframes sorrindo {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.descricao {
+    position: absolute;
+    left: 220px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 40px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #222;
+    font-size: 1.8em;
+}
+
+.formulario label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.formulario input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+.formulario input:focus {
+    border-color: #e60073;
+    box-shadow: 0 0 5px rgba(230, 0, 115, 0.3);
+}
+
+.botao-agendar {
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 10px;
+}
+
+.botao-agendar:hover {
+    background-color: #e60073;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(230, 0, 115, 0.4);
+}
+
+.animacao-tatuagem {
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+
+.animacao-tatuagem img {
+    width: 170px;
+    border-radius: 5px;
+    animation: sobeDesce 2s ease-in-out infinite;
+}
+
+@keyframes sobeDesce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+button, .botao-agendar,
+.galeria img,
+.artista img,
+.animacao-tatuagem img {
+    transition: all 0.3s ease;
+}
+
+button:hover, .botao-agendar:hover {
+    background-color: #e60073;
+    transform: scale(1.05);
+}
+
+.galeria img:hover,
+.artista img:hover,
+.animacao-tatuagem img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.destaque {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.destaque img {
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.chamada-agende {
+    text-align: center;
+    padding: 40px 30px;
+    background-color: #222;
+    color: #fff;
+    margin: 40px 0;
+}
+
+.depoimentos {
+    margin: 50px 0;
+    padding: 25px;
+    background-color: #fff;
+    border-left: 4px solid #e60073;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
