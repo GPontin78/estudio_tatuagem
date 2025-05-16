@@ -87,7 +87,7 @@ main {
     display: flex; /* Explicado anteriormente*/
     flex-direction: column; /* este código aqui serve para alterar a direção do display, também pesquisei sobre ele antes de utilizar*/
     width: 100%;
-    gap: 15px;
+    gap: 15px; /*Utlizei para defineir um espaço fixo entre os meus itens*/
 }
 
 .formulario h2 {
