@@ -16,9 +16,9 @@ body {
     width: 100%;
     background-color: #000;
     color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /*Utilizei o display flex, mas para utilizalo pesquisei sobre ele: ele serve para alinhar os itens em uma coluna, deixando o meu header (cabeçário) flexível pelo tamanho da tela.*/
+    justify-content: space-between; /* Utilizei o justify-content: space-between para alinhar os itens do meu cabeçario de forma que eles fiquem divididos corretamente, e também pesquisei sobre ele antes de utlizar.*/
+    align-items: center; 
     padding: 15px 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
@@ -47,7 +47,7 @@ main {
 
 .artista {
     position: relative;
-    display: flex;
+    display: flex; /*Explicado anteriormente*/
     align-items: center;
     margin: 25px 0;
 }
@@ -84,8 +84,8 @@ main {
 }
 
 .formulario form {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Explicado anteriormente*/
+    flex-direction: column; /* este código aqui serve para alterar a direção do display, também pesquisei sobre ele antes de utilizar*/
     width: 100%;
     gap: 15px;
 }
